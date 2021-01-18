@@ -1,13 +1,12 @@
 <template>
-	$END$
 </template>
 
-<script>
-  export default {
-    name: "DropDown"
+<script lang="ts">
+import { defineComponent} from 'vue'
+
+export default defineComponent({
+  name: 'DropDown',
+  props: {
   }
+})
 </script>
-
-<style lang="" scoped>
-
-</style>
